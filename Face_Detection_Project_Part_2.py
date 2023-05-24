@@ -7,6 +7,8 @@ print(cascade_path)
 classifier = cv.CascadeClassifier(str(cascade_path))
 
 capture  = cv.VideoCapture(1)
+# capture = cv.VideoCapture("C:\\Users\\Arqam Nisar\\Downloads\\1.mp4")
+
 
 while True:
     _, frame = capture.read()
